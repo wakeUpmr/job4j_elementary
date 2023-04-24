@@ -1,6 +1,6 @@
-package ru.job4j;
+package ru.job4j.max;
 
-public class Echo {
+public class Reduce {
     private int[] array;
 
     public void to(int[] array) {
@@ -15,7 +15,7 @@ public class Echo {
 
     public static void main(String[] args) {
         int[] array = {1, 2, 3};
-        Echo reduce = new Echo();
+        Reduce reduce = new Reduce();
         reduce.to(array);
         reduce.print();
     }
